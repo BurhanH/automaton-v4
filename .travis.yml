@@ -1,0 +1,8 @@
+language: ruby
+cache: bundler
+
+rvm:
+- "2.5.1p57"
+
+before_script: 'bundle install'
+script: 'bundle exec cucumber'
