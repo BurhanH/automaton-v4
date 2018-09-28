@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 
 rvm:
-- "2.5.1p57"
+- "2.5"
 
 before_script: 'bundle install'
 script: 'bundle exec cucumber'
