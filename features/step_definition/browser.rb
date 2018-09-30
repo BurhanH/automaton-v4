@@ -8,5 +8,6 @@ end
 
 Then(/^resolution is set$/) do
   resolution = @browser.manage.window.size
-  puts resolution
+  puts resolution.width
+  puts resolution.height
 end
