@@ -8,6 +8,6 @@ end
 
 Then(/^resolution is set$/) do
   resolution = @browser.manage.window.size
-  puts resolution.width
-  puts resolution.height
+  expect(resolution.width).to eq 800
+  expect(resolution.height).to eq 600
 end
