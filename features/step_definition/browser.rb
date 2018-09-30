@@ -3,10 +3,10 @@ Given(/^browser$/) do
 end
 
 When(/^browser set 800,600 resolution$/) do
-  @browser.set_window_size(800, 600)
+  @browser.manage.window.resize_to(800, 600)
 end
 
 Then(/^resolution is set$/) do
-  resolution = @browser.get_window_size
+  resolution = @browser.manage.window.size
   puts resolution
 end
