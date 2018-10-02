@@ -1,4 +1,6 @@
 language: ruby
+cache: bundler
+
 env:
 - MOZ_HEADLESS=1
 addons:
@@ -13,7 +15,6 @@ before_install:
 - tar -xzf geckodriver-v0.22.0-linux64.tar.gz -C geckodriver
 - export PATH=$PATH:$PWD/geckodriver
 
-cache: bundler
 before_script: 'bundle install'
 
 script: 'bundle exec cucumber'
