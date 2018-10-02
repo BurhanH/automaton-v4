@@ -1,11 +1,11 @@
-Given(/^we have cucumber installed$/) do
-  puts "Given"
+Given("we have cucumber installed") do
+  # nothing to do
 end
 
-When(/^we implement a test$/) do
-  puts "When"
+When("we implement a test") do
+  # nothing to do
 end
 
-Then(/^cucumber will test it for us!$/) do
-  puts "Then"
+Then("cucumber will test it for us!") do
+  # nothing to do
 end
