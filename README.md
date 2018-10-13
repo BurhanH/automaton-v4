@@ -19,11 +19,13 @@ Firefox 62.\*, geckodriver 0.22 <br>
    |-- README.md
    `-- features
        |-- browser.feature
+       |-- google.feature
        |-- initial.feature
        `-- support
        |    |-- env.rb
        `-- step_definition
            |-- browser.rb
+           |-- google.rb
            |-- initial.rb
 ```
 
