@@ -10,6 +10,6 @@ Then("user able to search by term") do
   # Clicking Google Search button
   @browser.find_element(:css, 'input[name="btnK"]').click
   # Verifying search results
-  @browser.find_element(:css, 'bNg8Rb').displayed?
+  @browser.find_element(:css, '.bNg8Rb').displayed?
   # TODO needs more verification
 end
