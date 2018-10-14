@@ -7,6 +7,7 @@ Automation framework (UI) - an example. Based on Ruby, Selenium, and Cucumber
 ## Requirements
 Ruby 2.5.\*, selenium-webdriver 3.14.0, rspec 3.8.0, cucumber 3.1.2, <br>
 Firefox 62.\*, geckodriver 0.22 <br>
+Chrome 69.*, chromedriver 2.42 <br>
 
 ## Project structure
 ```text
@@ -33,8 +34,8 @@ Firefox 62.\*, geckodriver 0.22 <br>
 1) Install [Ruby](https://www.ruby-lang.org/en/downloads/)
 2) Clone or copy (download) the repository into your target folder
 3) Move to `automaton-v4` folder, and execute command `bundle install`
-4) Install Firefox web browser
-5) Download and install geckodriver
+4) Install Firefox / Chrome web browser
+5) Download and install geckodriver / chromedriver
 
 ## How to run tests
 1) Open terminal window

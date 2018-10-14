@@ -1,5 +1,6 @@
 Feature: Browser resolution
 
+  @firefox
   Scenario Outline: Initiate browser and set resolution
     Given browser
     When browser set <resolution> resolution
