@@ -42,4 +42,12 @@ Chrome 69.*, chromedriver 2.42 <br>
 2) Go to `automaton-v4` folder
 3) Execute `bundle exec cucumber`
 
+## how to run particular file or scenario
+1) `bundle exec cucumber features/google.feature` for Mac / Linux or `bundle exec cucumber features\google.feature` for Windows, will execute all scenarios in `google.feature` file
+2) `bundle exec cucumber features/google.feature:4` for Mac / Linux or `bundle exec cucumber features\google.feature:4` for Windows, will execute the first scenario in `google.feature` file
+3) `bundle exec cucumber features/google.feature:17` for Mac / Linux or `bundle exec cucumber features\google.feature:17` for Windows, will execute the second scenario with the first parameter from Examples table in `google.feature` file
+
+## How to run test/s in Chrome browser
+1) Go to any UI scenario and change the tag from `@firefox` to `@chrome`.
+
 To be continue ...
