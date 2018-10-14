@@ -2,9 +2,9 @@ When("user goes to google") do
   @browser.navigate.to 'https://www.google.com'
 end
 
-Then("user able to search by term") do
+Then("user able to search by {str} term") do |target_text|
   # Searching for the input field by name and entering data
-  @browser.find_element(:name, 'q').send_keys 'ruby'
+  @browser.find_element(:name, 'q').send_keys target_text
   # Searching and waiting the search drop-down menu
   @browser.find_element(:css, '.FPdoLc.VlcLAe').displayed?
   # Clicking Google Search button
