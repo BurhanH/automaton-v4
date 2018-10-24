@@ -20,7 +20,9 @@ end
 
 
 After do |scenario|
-  @browser.quit if @browser !=nil
+  if @browser
+    @browser.quit
+  end
 end
 
 After do
