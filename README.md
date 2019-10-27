@@ -7,8 +7,8 @@ Automation framework (UI) - an example. Based on Ruby, Selenium, and Cucumber
 
 ## Requirements
 Ruby 2.5.\*, selenium-webdriver 3.14.0, rspec 3.8.0, cucumber 3.1.2, <br>
-Firefox 65.\*, geckodriver 0.24, <br>
-Chrome 69.*, chromedriver 2.42 <br>
+Firefox 70.*, geckodriver 0.26.0, <br>
+Chrome 77.0.3865.120, chromedriver 77.0.3865.40 <br>
 
 ## Project structure
 ```text
