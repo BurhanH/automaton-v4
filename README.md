@@ -7,8 +7,8 @@ Automation testing framework (UI) - an example. Based on Ruby, Selenium, and Cuc
 
 ## Requirements
 Ruby 2.5.\*, selenium-webdriver 3.14.0, rspec 3.8.0, cucumber 3.1.2, <br>
-Firefox 70.*, geckodriver 0.26.0, <br>
-Chrome 77.0.3865.120, chromedriver 77.0.3865.40 <br>
+Firefox 71.*, geckodriver 0.26.0, <br>
+Chrome 79.0.3945.88, chromedriver 79.0.3945.88 <br>
 
 ## Project structure
 ```text
@@ -50,5 +50,3 @@ Chrome 77.0.3865.120, chromedriver 77.0.3865.40 <br>
 
 ## How to run test/s in Chrome browser
 1) Go to any UI scenario and change the tag from `@firefox` to `@chrome`.
-
-To be continue ...
