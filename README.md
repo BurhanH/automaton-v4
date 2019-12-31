@@ -1,4 +1,4 @@
-# automaton-v4
+# Automaton-v4
 Automation testing framework (UI) - an example. Based on Ruby, Selenium, and Cucumber
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v4/blob/master/LICENSE)
