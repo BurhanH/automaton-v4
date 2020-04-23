@@ -6,9 +6,9 @@ Automation testing framework (UI) - an example. Based on Ruby, Selenium, and Cuc
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5786515c14b44772ba0dc5861280778a)](https://app.codacy.com/app/BurhanH/automaton-v4?utm_source=github.com&utm_medium=referral&utm_content=BurhanH/automaton-v4&utm_campaign=Badge_Grade_Dashboard)
 
 ## Requirements
-Ruby 2.5.\*, selenium-webdriver 3.14.0, rspec 3.8.0, cucumber 3.1.2, <br>
-Firefox 71.*, geckodriver 0.26.0, <br>
-Chrome 79.0.3945.88, chromedriver 79.0.3945.88 <br>
+Ruby 2.5.\*, selenium-webdriver 3.14.0, rspec 3.9.0, cucumber 3.1.2, <br>
+Firefox 75.0, geckodriver 0.26.0, <br>
+Chrome 81.0.4044.122, chromedriver 81.0.4044.69 <br>
 
 ## Project structure
 ```text
@@ -49,4 +49,16 @@ Chrome 79.0.3945.88, chromedriver 79.0.3945.88 <br>
 3) `bundle exec cucumber features/google.feature:17` for Mac / Linux or `bundle exec cucumber features\google.feature:17` for Windows, will execute the second scenario with the first parameter from Examples table in `google.feature` file
 
 ## How to run test/s in Chrome browser
-1) Go to any UI scenario and change the tag from `@firefox` to `@chrome`.
+Go to any UI scenario and change the tag from `@firefox` to `@chrome`.
+
+## Techology stack and helpful info
+[Ruby](https://www.ruby-lang.org/en/) <br>
+[GitHub, cloning repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
+[selenium-webdriver](https://rubygems.org/gems/selenium-webdriver) <br>
+[rspec](https://rubygems.org/gems/rspec)
+[cucumber](https://rubygems.org/gems/cucumber)
+[Selenium](https://www.selenium.dev/documentation/en/) <br>
+[Firefox](https://www.mozilla.org/en-US/firefox/) <br>
+[geckodriver](https://github.com/mozilla/geckodriver/releases) <br>
+[Chrome](https://www.google.com/chrome/) <br>
+[ChromeDriver](https://chromedriver.chromium.org/downloads) <br>
