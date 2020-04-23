@@ -55,8 +55,8 @@ Go to any UI scenario and change the tag from `@firefox` to `@chrome`.
 [Ruby](https://www.ruby-lang.org/en/) <br>
 [GitHub, cloning repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
 [selenium-webdriver](https://rubygems.org/gems/selenium-webdriver) <br>
-[rspec](https://rubygems.org/gems/rspec)
-[cucumber](https://rubygems.org/gems/cucumber)
+[rspec](https://rubygems.org/gems/rspec) <br>
+[cucumber](https://rubygems.org/gems/cucumber) <br>
 [Selenium](https://www.selenium.dev/documentation/en/) <br>
 [Firefox](https://www.mozilla.org/en-US/firefox/) <br>
 [geckodriver](https://github.com/mozilla/geckodriver/releases) <br>
