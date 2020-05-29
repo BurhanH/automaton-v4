@@ -4,6 +4,8 @@ Automation testing framework (UI) - an example. Based on Ruby, Selenium, and Cuc
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v4/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/BurhanH/automaton-v4.svg?branch=master)](https://travis-ci.org/BurhanH/automaton-v4)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5786515c14b44772ba0dc5861280778a)](https://app.codacy.com/app/BurhanH/automaton-v4?utm_source=github.com&utm_medium=referral&utm_content=BurhanH/automaton-v4&utm_campaign=Badge_Grade_Dashboard)
+[![HitCount](http://hits.dwyl.com/BurhanH/automaton-v4.svg)](http://hits.dwyl.com/BurhanH/automaton-v4)
+
 
 ## Requirements
 Ruby 2.7.1, selenium-webdriver 3.142.7, rspec 3.9.0, cucumber 3.1.2, <br>
