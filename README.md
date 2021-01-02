@@ -53,7 +53,7 @@ Chrome 81.0.4044.122, chromedriver 81.0.4044.69 <br>
 ## How to run test/s in Chrome browser
 Go to any UI scenario and change the tag from `@firefox` to `@chrome`.
 
-## Techology stack and helpful info
+## Technology stack and helpful info
 [Ruby](https://www.ruby-lang.org/en/) <br>
 [GitHub, cloning repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
 [selenium-webdriver](https://rubygems.org/gems/selenium-webdriver) <br>
